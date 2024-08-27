@@ -392,3 +392,16 @@ footer {
         height: auto; /* Mantém a proporção da imagem */
     }
 }
+
+.social-media {
+    display: flex;
+    font-size: 2.2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-media a {
+    color: #0F8EA1;
+    text-decoration: none;
+}
