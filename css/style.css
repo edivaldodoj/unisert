@@ -134,11 +134,12 @@ hr {
 
 .hero p {
     color: #333;
-    font-size: 1.2em;
+    font-size: 1em; /* Tamanho padronizado para parágrafos */
     margin-top: 20px;
     font-family: 'Roboto', sans-serif; /* Fonte para parágrafos na hero section */
 }
 
+/* Botões */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -202,14 +203,14 @@ hr {
 
 .about h2, .services h2, .history h2, .contact h2 {
     color: #0F8EA1;
-    font-size: 2.5em;
+    font-size: 2.5em; /* Tamanho padronizado para títulos */
     margin-bottom: 20px;
     font-family: 'Open Sans', sans-serif; /* Fonte para cabeçalhos */
 }
 
 /* Estilização das caixas de conteúdo */
 .content-box {
-    background-color: #F5F5F5; /* Cor de fundo suave para as caixas */
+    background-color: #FAFAFA; /* Cor de fundo suave para as caixas, ajustada para um tom mais agradável */
     padding: 20px;
     border-radius: 10px; /* Cantos arredondados para caixas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -221,7 +222,7 @@ hr {
 
 .content-box h3 {
     color: #33268B;
-    font-size: 2em; /* Aumentar o tamanho da fonte para cabeçalhos */
+    font-size: 2em; /* Tamanho padronizado para cabeçalhos em caixas de conteúdo */
     margin-bottom: 15px;
     font-family: 'Open Sans', sans-serif; /* Fonte para cabeçalhos em caixas de conteúdo */
     font-weight: 600; /* Fonte mais grossa para cabeçalhos */
@@ -229,7 +230,7 @@ hr {
 
 .content-box p {
     color: #333;
-    font-size: 1.4em; /* Aumentar o tamanho da fonte para parágrafos */
+    font-size: 1em; /* Tamanho padronizado para parágrafos em caixas de conteúdo */
     line-height: 1.6; /* Melhorar a legibilidade com espaçamento de linha */
     font-family: 'Roboto', sans-serif; /* Fonte para parágrafos em caixas de conteúdo */
     font-weight: 400; /* Fonte mais leve para parágrafos */
@@ -248,7 +249,7 @@ hr {
 }
 
 .contact-info p {
-    font-size: 1.2em;
+    font-size: 1em; /* Tamanho padronizado para parágrafos na seção de contato */
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif; /* Fonte para parágrafos na seção de contato */
 }
@@ -277,7 +278,7 @@ footer {
 
 .contact-info p {
     margin: 5px 0;
-    font-size: 1em;
+    font-size: 1em; /* Tamanho padronizado para parágrafos no rodapé */
     font-family: 'Roboto', sans-serif; /* Fonte para parágrafos no rodapé */
 }
 
@@ -358,9 +359,7 @@ footer {
     }
 }
 
-
-/* botão do whatsapp */
-
+/* Botão do WhatsApp */
 #div-fixa {
     position: fixed;
     bottom: 40%;
@@ -368,11 +367,10 @@ footer {
     z-index: 9999;
 }
 
-#div-fixa img{
+#div-fixa img {
     width: 70px;
     height: 70px;
 }
-
 
 .image-wrapper img {
     width: 100%; /* Faz a imagem preencher o container */
@@ -405,4 +403,3 @@ footer {
     color: #0F8EA1;
     text-decoration: none;
 }
-
