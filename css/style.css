@@ -407,3 +407,55 @@ footer {
     color: #0F8EA1;
     text-decoration: none;
 }
+
+.client-grid {
+    text-align: center;
+    padding: 20px;
+    background-color: #D8D8D5;
+}
+
+.client-grid h3 {
+    color: #0F8EA1;
+    font-size: 2.5em; /* Tamanho padronizado para títulos */
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif; /* Fonte para cabeçalhos */
+}
+
+.client-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
+.client-item {
+    width: 100%; /* A largura dos quadradinhos será ajustada automaticamente */
+    height: 100px; /* Tamanho fixo para a altura */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* Fundo branco para os quadradinhos */
+}
+
+.client-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 768px) {
+    .client-container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        /* No mínimo 3 quadradinhos por fileira em dispositivos móveis */
+    }
+}
+
+@media (max-width: 480px) {
+    .client-item {
+        height: 80px; /* Ajusta a altura em telas muito pequenas se necessário */
+    }
+}
