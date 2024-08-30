@@ -280,6 +280,37 @@ footer {
     margin-bottom: 20px;
 }
 
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+    font-size: 2em; /* Tamanho padronizado para cabeçalhos em caixas de conteúdo */
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif; /* Fonte para cabeçalhos em caixas de conteúdo */
+    font-weight: 600; /* Fonte mais grossa para cabeçalhos */
+    color: #fff;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .contact-info p {
     margin: 5px 0;
     font-size: 1em; /* Tamanho padronizado para parágrafos no rodapé */
