@@ -30,6 +30,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
@@ -270,8 +271,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .footer-image {
@@ -281,57 +282,12 @@ footer {
     margin-bottom: 20px;
 }
 
-.footer-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.footer-links{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-.footer-links a{
-    text-decoration: none;
-    font-size: 2em; /* Tamanho padronizado para cabeçalhos em caixas de conteúdo */
-    margin-bottom: 15px;
-    font-family: 'Open Sans', sans-serif; /* Fonte para cabeçalhos em caixas de conteúdo */
-    font-weight: 600; /* Fonte mais grossa para cabeçalhos */
-    color: #fff;
-}
-
-.logo-footer {
-    display: flex;
-    flex-direction: column;
-
-}
-
 .contact-info p {
     margin: 5px 0;
     font-size: 1em; /* Tamanho padronizado para parágrafos no rodapé */
     font-family: 'Roboto', sans-serif; /* Fonte para parágrafos no rodapé */
 }
 
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-.social-link:hover {
-    text-decoration: underline;
-}
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
@@ -398,14 +354,14 @@ footer {
 /* Botão do WhatsApp */
 #div-fixa {
     position: fixed;
-    bottom: 40%;
+    bottom: 20px;
     right: 20px;
     z-index: 9999;
 }
 
 #div-fixa img {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 
 .image-wrapper img {
@@ -429,15 +385,28 @@ footer {
 
 .social-media {
     display: flex;
-    font-size: 2.2rem;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    position:fixed;
+    z-index: 8888;
 }
 
+.social-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .social-media a {
-    color: #0F8EA1;
     text-decoration: none;
+    font-size: 30px;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
 }
 
 .client-grid {
@@ -491,3 +460,33 @@ footer {
         height: 80px; /* Ajusta a altura em telas muito pequenas se necessário */
     }
 }
+
+main {
+    min-height: 100vh;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+  }
