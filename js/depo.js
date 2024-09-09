@@ -81,7 +81,7 @@ const autoPlay = () => {
     setInterval(() => {
         index = (index + 1) % itemCount;
         updateCarousel();
-    }, 4000); // Mudar segundos
+    }, 5000); // Mudar segundos
 };
 
 autoPlay();
