@@ -490,3 +490,15 @@ main {
     color: white;
     border-radius: 50%;
   }
+
+.home-footer {
+    padding: 20px;
+    font-size: 2.5em; /* Tamanho padronizado para títulos */
+    font-family: 'Open Sans', sans-serif; /* Fonte para cabeçalhos */
+}
+
+.home-footer a {
+    color: white;
+    text-decoration: none;
+
+}
