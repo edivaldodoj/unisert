@@ -500,7 +500,10 @@ main {
 .home-footer a {
     color: white;
     text-decoration: none;
+}
 
+.home-footer a:hover {
+    text-decoration: underline;
 }
 
 .logo-footer {
