@@ -8,6 +8,9 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+
+    padding-top: 60px; /* Adiciona um espaço no topo para evitar que o conteúdo fique sob o menu */
+
 }
 
 hr {
@@ -22,7 +25,7 @@ hr {
 }
 
 /* Estilização do menu */
-.navbar {
+/* .navbar {
     background-color: #0F8EA1;
     padding: 15px 0;
     position: relative;
@@ -31,6 +34,19 @@ hr {
     justify-content: space-between;
     align-items: center;
 
+} */
+
+.navbar {
+    background-color: #0F8EA1;
+    padding: 15px 0;
+    position: fixed; /* Torna o menu fixo na tela */
+    top: 0; /* Posiciona o menu no topo da página */
+    width: 100%; /* Faz o menu ocupar 100% da largura da tela */
+    z-index: 1500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
 }
 
 .logo {
@@ -138,6 +154,18 @@ hr {
     font-size: 1em; /* Tamanho padronizado para parágrafos */
     margin-top: 20px;
     font-family: 'Roboto', sans-serif; /* Fonte para parágrafos na hero section */
+}
+
+
+.hero {
+    margin-top: 60px; /* Adiciona espaço para evitar que o menu sobreponha o Hero */
+}
+
+/* Certifique-se de que a imagem do Hero seja totalmente visível */
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Botões */
