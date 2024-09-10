@@ -415,6 +415,7 @@ footer {
     display: flex;
     position:fixed;
     z-index: 8888;
+    top: 3px;
 }
 
 .social-icon {
