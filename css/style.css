@@ -550,3 +550,27 @@ main {
     transform: scale(1.05);
 }
 
+.nav-links a, .social-media a {
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff; /* Cor de hover com uma transição suave */
+}
+
+.social-media a:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+
+@media (max-width: 480px) {
+    .content-box {
+        padding: 15px;
+    }
+    .hero-text {
+        font-size: 1.3em;
+    }
+}
+
+
